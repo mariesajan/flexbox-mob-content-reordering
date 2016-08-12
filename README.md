@@ -2,7 +2,12 @@
 
 An example static webpage done as part of learning [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-The signup form will display before the image when webpage is resized to the mobile view.
+When webpage is resized to mobile view, order of items change.
+
+- Hamburger icon appear at the beginning.
+
+- Sign up form appear before the image.
+
 Also, the navigation links will be displayed properly with appropriate size.
 
 ### Installation

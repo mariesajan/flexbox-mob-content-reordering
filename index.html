@@ -12,6 +12,7 @@
           <h3>Mobile Content Reordering in Flexbox!</h3>
         </div>
         <ul class="container div_bg">
+          <li class="toggleNav"><a href="#" class="fa fa-bars"> Menu</a></li>
           <li class="items"><a href="#">Item 01</a></li>
           <li class="items"><a href="#">Item 02</a></li>
           <li class="items"><a href="#">Item 03</a></li>
@@ -36,7 +37,7 @@
         </div>
         <div class="div_bg div_info">
           <p>This is a static webpage developed in Flexbox.</p>
-          <p>Sign up below.</p>
+          <p>Please sign up.</p>
         </div>
         <div class="div_bg div_input">
           <input />
@@ -48,5 +49,15 @@
         </div>
       </nav>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+      $(function(){
+        $('.toggleNav').on('click', function(){
+          console.log('clicked Menu...');
+          $('.items').slideToggle();
+          $('.social').slideToggle();
+        });
+      });
+    </script>
   </body>
 </html>

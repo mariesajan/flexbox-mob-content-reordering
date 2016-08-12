@@ -11,16 +11,20 @@ body{
   font-family: sans-serif;
   padding: 0;
   flex-wrap: wrap;
+  justify-content: center;
 }
 a{
   color: white;
+  text-decoration: none;
 }
 button, input{
   margin: 5px;
 }
 li{
-  text-align: center;
   list-style: none;
+}
+.toggleNav{
+  display: none;
 }
 img{
   max-height: 300px;
@@ -73,5 +77,14 @@ img{
   }
   button{
     flex-basis: 50%;
+  }
+  ul{
+    order: -1;
+  }
+  .toggleNav{
+    display: block;
+  }
+  .items, .social{
+    display: none;
   }
 }
