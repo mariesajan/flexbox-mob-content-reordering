@@ -1,0 +1,77 @@
+body{
+  background: mistyrose;
+  color: white;
+}
+.flex-nav{
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  display: flex;
+  font-family: sans-serif;
+  padding: 0;
+  flex-wrap: wrap;
+}
+a{
+  color: white;
+}
+button, input{
+  margin: 5px;
+}
+li{
+  text-align: center;
+  list-style: none;
+}
+img{
+  max-height: 300px;
+  max-width: 100%;
+}
+.div_bg{
+  border: 1px solid red;
+  text-align: center;
+  background: blue;
+  margin: 10px;
+  padding: 10px;
+}
+.div_image{
+  display: flex;
+}
+.bg_img{
+  flex-grow: 1;
+}
+.items{
+  flex: 3;
+}
+.social{
+  flex: 1;
+}
+@media all and (max-width: 1000px){
+  .items{
+    flex-basis: 50%;
+  }
+  .social{
+    flex-basis: 25%;
+  }
+}
+@media all and (max-width: 500px){
+  .items{
+    flex-basis: 100%;
+  }
+  .div_image{
+    order: 1;
+  }
+  .div_info, .div_footer{
+    order: 2;
+  }
+  .div_input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  input{
+    flex-basis: 25%;
+  }
+  button{
+    flex-basis: 50%;
+  }
+}
