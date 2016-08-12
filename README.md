@@ -1,4 +1,5 @@
-## Shopping Cart App
+## Mobile Content Reordering Using Flexbox
+
 An example static webpage done as part of learning [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 The signup form will display before the image when webpage is resized to the mobile view.
@@ -20,10 +21,10 @@ Also, the navigation links will be displayed properly with appropriate size.
   $ npm install
   ```
 
-4. Run gulp command
+4. Run gulp command.
 
    ```
    $ gulp watch
    ```
 
-5. Open index.html in your directory
+5. Open index.html in your directory to see the webpage.
