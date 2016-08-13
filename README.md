@@ -32,4 +32,4 @@ Also, the navigation links will be displayed properly with appropriate size.
    $ gulp watch
    ```
 
-5. Open index.html in your directory to see the webpage.
+5. Open `index.html` in your directory to see the webpage.
